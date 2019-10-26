@@ -1,0 +1,22 @@
+{
+    "name": "liguangchun/qyweixin-grouprobot",
+    "description": "qyweixin grouprobot plugin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "李光春",
+            "email": "gc@liguangchun.cn"
+        }
+    ],
+    "homepage": "https://www.dtapp.net",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "liguangchun\\qyweixin\\grouprobot\\": "src"
+        }
+    }
+}
