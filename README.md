@@ -8,14 +8,14 @@ composer require liguangchun/qyweixin-grouprobot
 
 ## 使用
 ```
-use liguangchun\qyweixin\grouprobot\QyBot;
+use liguangchun\qyweixin\grouprobot\QyWxBot;
 
 class Index
 {
     public function index()
     {
         // 实例化
-        $qywx = new QyBot();
+        $qywx = new QyWxBot();
         // 配置通知地址
         $qywx->setConfig([
             'webhook' => 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx'

@@ -33,7 +33,7 @@ declare(strict_types=1);
 namespace liguangchun\qyweixin\grouprobot;
 
 
-class QyBot
+class QyWxBot
 {
     /**
      * 企业微信自定义机器人接口链接

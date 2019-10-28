@@ -30,7 +30,7 @@
 
 require_once './vendor/autoload.php';
 
-$qywx = new \liguangchun\qyweixin\grouprobot\QyBot();
+$qywx = new \liguangchun\qyweixin\grouprobot\QyWxBot();
 // 配置通知地址
 $qywx->setConfig([
     'webhook' => 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx'
