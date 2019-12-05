@@ -1,27 +1,25 @@
 # qyweixin-grouprobot
-thinkphp 企业微信机器人扩展
+企业微信群通知
 
 ## 安装
 ```
 composer require liguangchun/qyweixin-grouprobot
 ```
 
-## 使用
+## 更新
 ```
-use liguangchun\qyweixin\grouprobot\QyWxBot;
+composer update liguangchun/qyweixin-grouprobot
+```
 
-class Index
-{
-    public function index()
-    {
-        // 实例化
-        $qywx = new QyWxBot();
-        // 配置通知地址
-        $qywx->setConfig([
-            'webhook' => 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx'
-        ]);
-        // 发送文本消息
-        $res = $qywx->text('测试测试');
-    }
-}
+## 删除
 ```
+composer remove liguangchun/qyweixin-grouprobot
+```
+
+## 搜索
+```
+composer search liguangchun/qyweixin-grouprobot
+```
+
+## 使用
+查看 tests文件夹的notice文件
