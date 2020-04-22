@@ -1,12 +1,13 @@
 {
   "name": "liguangchun/qyweixin-grouprobot",
-  "description": "QyWeiXin GroupRobot Plugin",
+  "description": "企业微信群通知",
   "keywords": [
     "liguangchun",
     "WeiXin",
     "GroupRobot",
     "QyWeiXin"
   ],
+  "time": "2019-10-26",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -18,11 +19,19 @@
   ],
   "homepage": "https://www.dtapp.net",
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
-      "liguangchun\\QyWeiXin\\Notice\\": "src"
+      "DtApp\\Notice\\QyWeiXin\\": "src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
     }
   }
 }
