@@ -44,8 +44,6 @@ composer search liguangchun/qyweixin-grouprobot -vvv
 ```
 
 ## 使用
-参考tests文件夹的help文件或查看WiKi里的文档
-
 ```php
 
 use DtApp\Notice\QyWeiXin\Send;
