@@ -5,3 +5,5 @@
 git.sh
 /vendor/
 composer.lock
+gitv.sh
+help.md
