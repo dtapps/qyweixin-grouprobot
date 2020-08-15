@@ -1,6 +1,6 @@
 {
   "name": "liguangchun/qyweixin-grouprobot",
-  "description": "企业微信群通知",
+  "description": "ThinkPHP6企业微信群通知",
   "keywords": [
     "liguangchun",
     "dtapp",
@@ -22,12 +22,21 @@
   "homepage": "https://www.dtapp.net",
   "require": {
     "php": ">=7.1",
-    "ext-curl": "*",
-    "ext-json": "*"
+    "liguangchun/think-library": "6.0.*"
   },
   "autoload": {
     "psr-4": {
       "DtApp\\Notice\\QyWeiXin\\": "src"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "DtApp\\Notice\\QyWeiXin"
+      ],
+      "config": {
+        "dtapp_notice": "src/dtapp_notice.php"
+      }
     }
   },
   "repositories": {
